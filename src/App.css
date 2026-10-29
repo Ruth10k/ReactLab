@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  padding: 50px;
+}
+
+.grid {
+  display: grid;
+  border: 3px solid #000;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+}
+
+.blocks {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+.blocks:hover {
+  background-color: #fff !important;
+  color: #000;
+}
